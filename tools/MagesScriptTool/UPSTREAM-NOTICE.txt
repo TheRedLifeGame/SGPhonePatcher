@@ -1,0 +1,8 @@
+MagesScriptTool and the mgs-spec-bank files in this directory were obtained
+from Committee of Zero's coalesc3 project:
+
+https://github.com/CommitteeOfZero/coalesc3
+
+The upstream revision used for this package did not contain a top-level
+license file. These files are included unchanged for the patcher's build
+step. See THIRD-PARTY-NOTICES.txt in the package root before redistributing.

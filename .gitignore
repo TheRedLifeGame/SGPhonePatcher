@@ -1,0 +1,5 @@
+Config.local.json
+assets/ringtones/*
+!assets/ringtones/.keep
+assets/wallpapers/*
+!assets/wallpapers/.keep

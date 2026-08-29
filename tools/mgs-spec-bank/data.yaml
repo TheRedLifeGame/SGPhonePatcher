@@ -1,0 +1,467 @@
+instructions:
+- instructions/base/base_00.yaml
+- instructions/base/base_01.yaml
+- instructions/base/base_10.yaml
+- instructions/base/base_80.yaml
+- instructions/base/base_extra.yaml
+- instructions/11eyes.yaml
+- instructions/chaos_head_noah.yaml
+- instructions/memories_off_6_old.yaml
+- instructions/memories_off_6.yaml
+- instructions/memories_off_7.yaml
+- instructions/memories_off_8.yaml
+- instructions/chaos_child_lcc.yaml
+- instructions/chaos_child.yaml
+- instructions/chaos_head_lcc.yaml
+- instructions/iwakura_aria.yaml
+- instructions/steins_gate_hd.yaml
+
+macros:
+- macros/chaos_head_noah.yaml
+
+stringtags:
+- stringtags/base.yaml
+- stringtags/famicom_tantei_club.yaml
+
+datadirectives:
+- datadirectives/base.yaml
+
+charset:
+  chaos_head_lcc-extended: charset/chaos_head_lcc-extended.json
+  chaos_head_noah: charset/chaos_head_noah.json
+  chaos_head_noah-extended: charset/chaos_head_noah-extended.json
+  chaos_child-extended: charset/chaos_child-extended.json
+  chaos_child_lcc: charset/chaos_child_lcc.json
+  chaos_child_lcc-extended: charset/chaos_child_lcc-extended.json
+  famicom_tantei_club: charset/famicom_tantei_club.json
+  iwakura_aria: charset/iwakura_aria.json
+  lcc_double_pack: charset/lcc_double_pack.json
+  lcc_double_pack-extended: charset/lcc_double_pack-extended.json
+  steins_gate_hd: charset/steins_gate_hd.json
+
+flags:
+  memories_off_6_old:
+    game_mo6tw: yes
+    new_bgmstop: yes
+    new_bgmplay: yes
+    new_createsurface: yes
+    new_loaddata: no
+    new_memberwrite: no
+    new_playmovie: no
+    new_presence: no
+    new_pressstart: no
+    new_save: no
+    new_seplay: no
+    new_setdic: no
+    new_setevflag: no
+    new_scriptload: no
+    new_sseplay: no
+    new_sseinit: no
+    new_titlemenu: no
+    new_voicestop: no
+    new_voiceplay: no
+    new_releasesurface: no
+    old_ev: yes
+    add_contents: no
+    
+
+    bgrelease: no
+    bgloadex: yes
+    chaload: yes
+    mescls: no
+    movie_01_27: no
+    return_labels: no
+    effyuge: no
+    debugeditor4b: yes
+    nonameid: yes
+    multisystemmes: no
+    option_default_arg: no
+    stringid_16: no
+
+  memories_off_historia:
+    new_bgmstop: yes
+    new_bgmplay: yes
+    new_createsurface: yes
+    new_createthread: no
+    new_loaddata: yes
+    new_memberwrite: yes
+    new_messetid: no
+    new_playmovie: yes
+    new_presence: yes
+    new_pressstart: no
+    new_resetflag: no
+    new_save: yes
+    new_seplay: yes
+    new_setdic: yes
+    new_setevflag: yes
+    new_setflag: no
+    new_scriptload: no
+    new_sseplay: no
+    new_sseinit: yes
+    new_titlemenu: yes
+    new_voicestop: yes
+    new_releasesurface: no
+    add_contents: yes
+    option_default_arg: no
+
+    effyuge: yes
+    bgrelease: yes
+    chaload: yes
+    mescls: yes
+    movie_01_27: yes
+    return_labels: yes
+    multisystemmes: no
+    stringid_16: no
+
+  chaos_head_lcc_ps3:
+    game_chlcc: yes
+
+    new_bgmplay: yes
+    new_bgmstop: yes
+    new_createsurface: yes
+    new_createthread: no
+    old_ev: yes
+    new_messetid: no
+    new_playmovie: yes
+    new_presence: yes
+    new_save: yes
+    new_resetflag: no
+    new_scriptload: no
+    new_seplay: yes
+    new_setdic: yes
+    new_setevflag: no
+    new_setflag: no
+    new_sseplay: no
+    new_sseinit: no
+    new_titlemenu: no
+    new_voiceplay: no
+    new_voicestop: no
+    new_releasesurface: no
+    add_contents: no
+
+    achchktitle: no
+    bgrelease: no
+    effyuge: no
+    chaload: yes
+    mescls: yes
+    movie_01_27: yes
+    return_labels: no
+    multisystemmes: no
+    option_default_arg: yes
+    stringid_16: yes
+
+  chaos_head_switch:
+    game_chn: yes
+
+    new_bgmplay: yes
+    new_bgmstop: yes
+    new_createthread: no
+    new_loaddata: yes
+    new_memberwrite: yes
+    new_messetid: no
+    new_playmovie: yes
+    new_presence: yes
+    new_pressstart: no
+    new_resetflag: no
+    new_save: yes
+    new_scriptload: no
+    new_seplay: yes
+    new_setdic: yes
+    new_setevflag: yes
+    new_setflag: no
+    new_sseplay: yes
+    new_sseinit: yes
+    new_titlemenu: yes
+    new_voicestop: yes
+    new_releasesurface: no
+    add_contents: yes
+
+    achchktitle: yes
+    effyuge: yes
+    bgrelease: yes
+    chaload: yes
+    mescls: yes
+    movie_01_27: yes
+    return_labels: yes
+    multisystemmes: no
+    option_default_arg: no
+    stringid_16: no
+
+  chaos_head_windows:
+    game_chn: yes
+
+    new_bgmplay: yes
+    new_bgmstop: yes
+    new_createthread: no
+    new_loaddata: yes
+    new_memberwrite: yes
+    new_messetid: no
+    new_playmovie: yes
+    new_presence: yes
+    new_pressstart: no
+    new_resetflag: no
+    new_save: yes
+    new_scriptload: yes
+    new_seplay: yes
+    new_setdic: yes
+    new_setevflag: yes
+    new_setflag: no
+    new_sseplay: yes
+    new_sseinit: yes
+    new_titlemenu: yes
+    new_voicestop: yes
+    new_releasesurface: no
+    add_contents: yes
+
+    achchktitle: true
+    effyuge: yes
+    bgrelease: yes
+    chaload: yes
+    mescls: yes
+    movie_01_27: yes
+    return_labels: yes
+    multisystemmes: no
+    option_default_arg: no
+    stringid_16: no
+
+  chaos_child_lcc_ps4:
+    cc_common: yes
+    game_cclcc: yes
+
+    new_bgmplay: yes
+    new_bgmstop: yes
+    new_createsurface: yes
+    new_createthread: no
+    new_loaddata: yes
+    new_messetid: no
+    new_playmovie: yes
+    new_presence: yes
+    new_pressstart: yes
+    new_resetflag: no
+    new_save: yes
+    new_scriptload: no
+    new_seplay: yes
+    new_setdic: yes
+    new_setevflag: no
+    new_setflag: no
+    new_sseplay: no
+    new_sseinit: no
+    new_titlemenu: yes
+    new_voiceplay: no
+    new_voicestop: yes
+    new_releasesurface: no
+    add_contents: no
+    bgrelease: yes
+
+    achchktitle: yes
+    effyuge: no
+    chaload: yes
+    mescls: yes
+    movie_01_27: yes
+    return_labels: yes
+    multisystemmes: yes
+    option_default_arg: no
+    stringid_16: yes
+
+  famicom_tantei_club:
+    game_ftc: yes
+    stringid_16: no
+    new_releasesurface: no
+
+  iwakura_aria_switch:
+    game_ia: yes
+    
+    new_bgmplay: yes
+    new_bgmstop: yes
+    new_createthread: yes
+    new_calc: yes
+    new_messetid: yes
+    new_playmovie: yes
+    new_presence: yes
+    new_resetflag: yes
+    new_save: yes
+    new_scriptload: no
+    new_seplay: yes
+    new_setevflag: yes
+    new_setflag: yes
+    new_sseplay: yes
+    new_sseinit: yes
+    new_titlemenu: yes
+    new_voicestop: yes
+    new_releasesurface: no
+    bgrelease: yes
+    
+    chaload: yes
+    mescls: yes
+    movie_01_27: yes
+    return_labels: yes
+    multisystemmes: no
+    option_default_arg: no
+    stringid_16: no
+
+  iwakura_aria_windows:
+    game_ia: yes
+    game_chlcc: no
+    
+    new_bgmplay: yes
+    new_bgmstop: yes
+    new_createthread: yes
+    new_calc: yes
+    new_messetid: yes
+    new_playmovie: yes
+    new_presence: yes
+    new_pressstart: no
+    new_resetflag: yes
+    new_save: yes
+    new_scriptload: yes
+    new_seplay: yes
+    new_setevflag: yes
+    new_setflag: yes
+    new_sseplay: yes
+    new_sseinit: yes
+    new_titlemenu: yes
+    new_voicestop: yes
+    new_releasesurface: no
+    bgrelease: yes
+    
+    chaload: yes
+    mescls: yes
+    movie_01_27: yes
+    return_labels: yes
+    multilang: yes
+    multisystemmes: no
+    option_default_arg: no
+    stringid_16: no
+
+  chaos_child_switch:
+    cc_common: yes
+    game_cc: yes
+
+    new_bgmplay: yes
+    new_bgmstop: yes
+    new_createthread: no
+    new_loaddata: yes
+    new_memberwrite: yes
+    new_messetid: no
+    new_playmovie: yes
+    new_presence: yes
+    new_pressstart: no
+    new_resetflag: no
+    new_save: yes
+    new_scriptload: no
+    new_seplay: yes
+    new_setdic: yes
+    new_setevflag: yes
+    new_setflag: no
+    new_sseplay: yes
+    new_titlemenu: yes
+    new_voicestop: yes
+    new_releasesurface: no
+    add_contents: yes
+
+    achchktitle: yes
+    effyuge: no
+    bgrelease: yes
+    chaload: yes
+    mescls: yes
+    movie_01_27: yes
+    return_labels: yes
+    multisystemmes: yes
+    option_default_arg: no
+    stringid_16: no
+
+  chaos_child_lcc_switch:
+    cc_common: yes
+    game_cclcc: yes
+    
+    new_bgmplay: yes
+    new_bgmstop: yes
+    new_createthread: yes
+    new_calc: yes
+    new_messetid: yes
+    new_playmovie: yes
+    new_presence: yes
+    new_resetflag: yes
+    new_save: yes
+    new_scriptload: no
+    new_seplay: yes
+    new_setevflag: yes
+    new_setflag: yes
+    new_sseplay: yes
+    new_sseinit: yes
+    new_titlemenu: yes
+    new_voicestop: yes
+    new_releasesurface: yes
+    bgrelease: yes
+    
+    chaload: yes
+    mescls: yes
+    movie_01_27: yes
+    return_labels: yes
+    multisystemmes: no
+    option_default_arg: no
+    stringid_16: no
+  
+  chaos_head_lcc_switch:
+    game_chlcc: yes
+    
+    new_bgmplay: yes
+    new_bgmstop: yes
+    new_createthread: yes
+    new_calc: yes
+    new_messetid: yes
+    new_playmovie: yes
+    new_presence: yes
+    new_resetflag: yes
+    new_save: yes
+    new_scriptload: no
+    new_seplay: yes
+    new_setevflag: yes
+    new_setflag: yes
+    new_sseplay: yes
+    new_sseinit: yes
+    new_titlemenu: yes
+    new_voicestop: yes
+    new_releasesurface: yes
+    bgrelease: yes
+    
+    chaload: yes
+    mescls: yes
+    movie_01_27: yes
+    return_labels: yes
+    multisystemmes: no
+    option_default_arg: no
+    stringid_16: no
+
+  steins_gate_hd:
+    game_sghd: yes
+
+    new_bgmplay: yes
+    new_bgmstop: yes
+    new_createsurface: yes
+    new_createthread: no
+    new_messetid: no
+    new_playmovie: no
+    new_presence: yes
+    new_pressstart: yes
+    new_resetflag: no
+    new_save: yes
+    new_scriptload: no
+    new_seplay: yes
+    new_setdic: yes
+    new_setevflag: no
+    new_setflag: no
+    new_sseplay: no
+    new_sseinit: no
+    new_titlemenu: yes
+    new_voiceplay: no
+    new_voicestop: yes
+    add_contents: no
+    bgrelease: yes
+
+    achchktitle: no
+    effyuge: no
+    chaload: yes
+    mescls: yes
+    movie_01_27: yes
+    return_labels: yes
